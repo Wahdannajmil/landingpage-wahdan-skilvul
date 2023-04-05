@@ -100,13 +100,9 @@ header {
   z-index: 1000;
 }
 
-header .logo {
-  font-size: 2rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--dark-blue);
+header img {
+  width: 80px;
 }
-
 header .navbar a {
   font-size: 1.7rem;
   margin-left: 2rem;
@@ -139,6 +135,7 @@ header label {
 }
 
 .home .image img {
+  padding-top: 50px;
   width: 40vw;
   animation: anim 3s linear infinite;
 }
