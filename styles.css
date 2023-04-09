@@ -1,5 +1,3 @@
-
-/* Google Fonts(Poppins) */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
 
 :root {
@@ -8,7 +6,6 @@
   --gradient: linear-gradient(90deg, var(--dark-blue), var(--blue));
 }
 
-/* ----- Scroll Bar CSS ----- */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -127,11 +124,13 @@ header label {
 }
 
 .home {
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
   background-position: center;
+  background-image: url("./images/home-bg-img.png");
 }
 
 .home .image img {
@@ -246,7 +245,7 @@ header label {
 .article {
   text-align: center;
   padding: 5rem 1rem;
-  background: url(../images/subscribe-bg.png) no-repeat;
+  background: url(../images/artikel-bg.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
