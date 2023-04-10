@@ -167,32 +167,19 @@
         <img src="images/contact-img.svg" alt="" />
       </div>
 
-      <form action="">
-        <h1 class="heading">kontak kami</h1>
-
-        <div class="inputBox">
-          <input type="text" required />
-          <label>nama</label>
-        </div>
-
-        <div class="inputBox">
-          <input type="email" required />
-          <label>email</label>
-        </div>
-
-        <div class="inputBox">
-          <input type="tel" required />
-          <label>telepon</label>
-        </div>
-
-        <div class="inputBox">
-          <textarea required name="" id="" cols="30" rows="10"></textarea>
-          <label>pesan</label>
-        </div>
-
-        <input type="submit" class="btn" value="kirim pesan" />
-      </form>
+      <form>
+        <input type="text" id="name" name="name">
+        <input type="text" id="city" name="city">
+        <input type="email" id="email" name="email">
+        <input type="number" id="zip-code" name="zipCode">
+        <label for="status" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+        <input type="checkbox" id="status">
+        <button type="submit" id="submit-form">Submit</button>
+        <div id="warning"></div>
+    </form>
     </section>
+
+    <footer>
 
     <div class="footer">
       <div class="box-container">
@@ -241,6 +228,7 @@
 
       <h1 class="credit">copyright &copy; 2023 Wahdan Najmil Fata</h1>
     </div>
+    </footer>
 
   </body>
 </html>
