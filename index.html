@@ -167,34 +167,15 @@
         <img src="images/contact-img.svg" alt="" />
       </div>
 
-      <form action="">
-        <h1 class="heading">kontak kami</h1>
-
-        <div class="inputBox">
-          <input id="name" type="text" required />
-          <label>nama</label>
-        </div>
-
-        <div class="inputBox">
-          <input id="city" type="text" required />
-          <label>Kota</label>
-        </div>
-
-        <div class="inputBox">
-          <input id="email" type="email" required />
-          <label>email</label>
-        </div>
-
-        <div class="inputBox">
-          <input id="zip-code" type="number" required />
-          <label>Kode pos</label>
-        </div>
-        <div>
-        <input id="status" type="checkbox">
+       <form id="my-form">
+        <input id="name" type="text">
+        <input id="city" type="text">
+        <input id="email" type="email">
+        <input id="zip-code" type="number">
         <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
-        </div>
-        
-        <input id="submit-form" type="submit" class="btn" value="kirim pesan" />
+        <input id="status" type="checkbox">
+        <button id="submit-form" type="submit">Submit</button>
+        <div id="warning"></div>
       </form>
     </section>
 
